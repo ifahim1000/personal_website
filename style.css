@@ -6,20 +6,22 @@ body{
     
 }
 .image{ 
-    background:url(pic1.jpg) no-repeat;  
+    background:url(pic1.jpg) ;  
     background-size:cover; 
     background-position: center;
-    position: sticky;
+    
 }
+
 .menu{
     
     list-style-type: none;
     margin: 0;
-    padding: 0px;
+    padding-left: 350px;
     overflow: hidden;
     position: sticky;
-    float: right;
+    position: center;
 }
+
 .menu li{
     text-transform: uppercase;
     float:left;
