@@ -1,0 +1,42 @@
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+.image{ 
+    background:url(pic1.jpg) no-repeat;  
+    background-size:cover; 
+    background-position: center;
+    position: sticky;
+}
+.menu{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    position: sticky;
+    float: right;
+}
+.menu li{
+    text-transform: uppercase;
+    float:left;
+    margin:10px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+.menu li a {
+    display: block;
+    color: rgb(20, 62, 94);
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+    border-radius: 7px;
+}
+.menu li a:hover{
+    background-color:rgb(21, 125, 194);;
+    color:white;
+    font-weight: 900;
+}
