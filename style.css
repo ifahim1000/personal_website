@@ -8,25 +8,21 @@ body{
 .image{ 
     background:url(pic1.jpg) ;  
     background-size:cover; 
-    background-position: center;
-    
+    background-position: center;   
 }
 
 .menu{
-    
-    list-style-type: none;
+    list-style-type: none;   /*remove bullet points/number in the list*/
     margin: 0;
     padding-left: 350px;
     overflow: hidden;
     position: sticky;
-    position: center;
 }
 
 .menu li{
     text-transform: uppercase;
     float:left;
     margin:10px;
-    border-radius: 7px;
     font-weight: 700;
 }
 .menu li a {
@@ -34,11 +30,11 @@ body{
     color: rgb(20, 62, 94);
     text-align: center;
     padding: 20px 10px;
-    text-decoration: none;
-    border-radius: 7px;
+    text-decoration: none;     /* removing under-lines in the hyper-link*/
+    border-radius: 7px;       /*making corner goll*/
 }
 .menu li a:hover{
     background-color:rgb(59, 136, 187);
     color:white;
-    font-weight: 900;
+    font-weight: 900;        /*how much bold*/
 }
