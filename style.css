@@ -10,13 +10,11 @@ body{
     background-size:cover; 
     background-position: center;   
 }
-
 .menu{
     list-style-type: none;   /*remove bullet points/number in the list*/
     margin: 0;
     padding-left: 350px;
-    overflow: hidden;
-    position: sticky;
+    /*overflow: hidden;*/ 
 }
 
 .menu li{
@@ -37,4 +35,48 @@ body{
     background-color:rgb(59, 136, 187);
     color:white;
     font-weight: 900;        /*how much bold*/
+}
+.top-part div:hover{
+    font-size: 21px;
+    text-shadow: 2px 2px 4px black;
+}
+.half-section{
+   
+    width: 50%;
+    height: 500px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 20px;
+    color:rgb(233, 251, 255);
+   background-color: rgb(121, 181, 199);
+   box-shadow: 10px 20px 10px rgb(128, 128, 128);
+
+    border-radius: 30px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+h2{
+    color:#c71a54;
+}
+#qut-design{
+    font-weight: bold;
+    font-style: italic;
+}
+ #right-part{
+     background: transparent;
+    width: 40%;
+    height: 500px;      
+}
+img{
+    height: 550px;
+    width: 600px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 50px;
 }
