@@ -38,7 +38,7 @@ body{
 }
 .top-part div:hover{
     font-size: 21px;
-    text-shadow: 2px 2px 4px black;
+    /*text-shadow: 2px 2px 4px white;*/
 }
 .half-section{
    
@@ -49,7 +49,7 @@ body{
     margin-top: 20px;
     padding: 20px;
     font-size: 20px;
-    color:rgb(233, 251, 255);
+    color: rgb(9, 9, 58);
    background-color: rgb(121, 181, 199);
    box-shadow: 10px 20px 10px rgb(128, 128, 128);
 
